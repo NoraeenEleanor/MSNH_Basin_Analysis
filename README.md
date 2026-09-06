@@ -1,5 +1,3 @@
-# MSNH_Basin_Analysis
-
 # MNSH Basin Analysis using Python
 
 A Python workflow for basin-scale exploration analysis - field inventory, well database QC, formation tops, and 3D play-level visualization - built on Mid North Sea High (MNSH) field, well, and seismic isochron data exported from Petrel.
