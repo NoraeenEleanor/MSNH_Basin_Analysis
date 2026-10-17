@@ -8,11 +8,10 @@ Basin-scale exploration analysis (field inventory, play fairway mapping, well da
 
 ## Series Progress
 
-- ✅ Part 1: Field Inventory & Basin Overview (posted on LinkedIn)
-- 🔄 Part 2: Well Database QC (in progress)
-- ⏳ Part 3: Formation Tops Analysis
-- ⏳ Part 4: Well-to-Quad Correlation (scope adjusted - no direct well-to-field join key in the dataset, so correlation is done at quad/block level instead)
-- 🔄 Part 5: Basin-Scale 3D Visualization (Total Sediment Thickness + Permian Zechstein proven play level, rotating GIF)
+- ✅ Part 1: Field Inventory & Basin Overview
+- ✅ Part 2: Well Database QC + Formation Top Analysis
+- ✅ Part 3: Well-to-Quad Correlation
+- ⏳ Part 4: Basin Subsidence Tracker
 
 ## Tools Used
 
@@ -21,12 +20,6 @@ Basin-scale exploration analysis (field inventory, play fairway mapping, well da
 - `PyVista` - 3D visualization + rotating GIF export
 - `pandas` - field/well data QC and cleaning
 - `matplotlib` - field statistics, discovery timeline, histograms
-
-## Files
-
-- `Part 1: Field Inventory` (notebook - field type/reservoir/discovery timeline analysis, GIF)
-- `Part 2: Well Database QC` (notebook - flag normalization, quad-level well distribution, in progress)
-- `generate_mnsh_3d_gif_v3.py` (Part 5 - isochron surface + wellhead 3D visualization script)
 
 ## Requirements
 
